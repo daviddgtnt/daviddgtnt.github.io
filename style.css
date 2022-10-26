@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto&family=Roboto+Mono&family=Source+Code+Pro&family=Ubuntu&display=swap");
+
+body {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 100%;
+    width: 100%; 
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #bbbbbb;
+    margin: 0;
+    padding: 20px;
+}
+
+header ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+header li {
+    display: inline-block;
+    margin: none;
+}
+
+header a {
+    padding: 10px;
+    color: #000000;
+    background-color: #dddddd;
+    text-decoration: none;
+    transition: color 1s, background-color 1s;
+}
+
+header a:hover {
+    color: #ffffff;
+    background-color: #555555;
+}
+
+.cover {
+    height: 100%;
+    padding: 25% 0px;
+    background-image: url("background.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.covertext {
+    text-align: center;
+    color: white;
+}
+
+article {
+    padding: 20px;
+    margin: 20px;
+}
+
+article h1 {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 900px) {
+    img {
+        max-width: 100%;
+    }
+}
+
+a {
+    color: #000000;
+}
+
+a:hover {
+    color: #555555;
+}
